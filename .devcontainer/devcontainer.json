@@ -1,0 +1,8 @@
+{
+    "build": {"dockerfile": "dev-Dockerfile"},
+    "extensions": [
+		"eamodio.gitlens",
+		"haskell.haskell",
+		"justusadam.language-haskell"
+	]
+}
