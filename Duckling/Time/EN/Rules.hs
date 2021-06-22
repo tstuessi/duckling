@@ -1533,7 +1533,7 @@ ruleIntervalAfterFromSinceTime = Rule
   }
 
 ruleDaysOfWeek :: [Rule]
-ruleDaysOfWeek = mkRuleDaysOfWeek
+ruleDaysOfWeek = mkRuleDaysOfWeekCustom
   [ ( "Monday"   , "mondays?|mon\\.?"         )
   , ( "Tuesday"  , "tuesdays?|tues?\\.?"      )
   , ( "Wednesday", "wed?nesdays?|wed\\.?"     )
@@ -2840,3 +2840,4 @@ rules =
   ++ ruleComputedHolidays
   ++ ruleComputedHolidays'
   ++ rulePeriodicHolidays
+  

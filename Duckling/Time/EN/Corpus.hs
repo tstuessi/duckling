@@ -216,37 +216,41 @@ allExamples = concat
              [ "tomorrow"
              , "tomorrows"
              ]
-  , examples (datetime (2013, 2, 18, 0, 0, 0) Day)
+  , examples (datetime (2013, 2, 11, 0, 0, 0) Day)
              [ "monday"
              , "mon."
-             , "this monday"
+             , "Monday"
+             ]
+  , examples (datetime (2013, 2, 18, 0, 0, 0) Day)
+             [ "this monday"
              , "Monday, Feb 18"
              , "Mon, February 18"
              ]
+  , examples (datetime (2013, 2, 5, 0, 0, 0) Day)
+             [ "tuesday" ]
   , examples (datetime (2013, 2, 19, 0, 0, 0) Day)
-             [ "tuesday"
-             , "Tuesday the 19th"
+             [ "Tuesday the 19th"
              , "Tuesday 19th"
              ]
   , examples (datetime (2013, 8, 15, 0, 0, 0) Day)
              [ "Thu 15th"
              ]
-  , examples (datetime (2013, 2, 14, 0, 0, 0) Day)
+  , examples (datetime (2013, 2, 7, 0, 0, 0) Day)
              [ "thursday"
              , "thu"
              , "thu."
              ]
-  , examples (datetime (2013, 2, 15, 0, 0, 0) Day)
+  , examples (datetime (2013, 2, 8, 0, 0, 0) Day)
              [ "friday"
              , "fri"
              , "fri."
              ]
-  , examples (datetime (2013, 2, 16, 0, 0, 0) Day)
+  , examples (datetime (2013, 2, 9, 0, 0, 0) Day)
              [ "saturday"
              , "sat"
              , "sat."
              ]
-  , examples (datetime (2013, 2, 17, 0, 0, 0) Day)
+  , examples (datetime (2013, 2, 10, 0, 0, 0) Day)
              [ "sunday"
              , "sun"
              , "sun."
