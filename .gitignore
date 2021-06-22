@@ -47,3 +47,6 @@ result-*
 tags
 log
 .idea
+.vscode/launch.json
+.vscode/tasks.json
+.ghci
